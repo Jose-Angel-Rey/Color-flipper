@@ -49,10 +49,12 @@
     transition: all .5s;
     padding: 1.4rem 1rem;
 }
-.navbar__nav-link:hover{
+
+.navbar__nav-link:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
-.navbar__nav-link:active{
+
+.navbar__nav-link:active {
     background-color: rgba(148, 148, 148, 0.473);
 }
 
@@ -114,9 +116,11 @@
     text-align: center;
     width: 100%;
 }
-.main-footer p{
+
+.main-footer p {
     text-shadow: 0 1px 1px #000;
 }
+
 .main-footer a {
     color: #fff;
     text-shadow: 0 1px 2px #000;
