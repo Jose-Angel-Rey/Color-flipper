@@ -8,6 +8,9 @@
     <meta name="description" content="Color flipper">
     <meta name="keywords" content="HTML, CSS, Javascript">
     <meta name="author" content="Jose Angel Rey">
+
+
+    <link rel="stylesheet" href="./css/main.css">
     <title>Color flipper</title>
 </head>
 
@@ -16,6 +19,9 @@
         <!-- Navbar -->
         <nav class="navbar">
             <ul class="navbar__nav">
+                <li class="navbar__nav-item">
+                    <h1 class="navbar__nav-title">Color Flipper</h1>
+                </li>
                 <li class="navbar__nav-item"><a href="#" class="navbar__nav-link">Simple</a></li>
                 <li class="navbar__nav-item"><a href="#" class="navbar__nav-link">Hex</a></li>
                 <li class="navbar__nav-item"><a href="#" class="navbar__nav-link">RGB</a></li>
@@ -25,15 +31,18 @@
         </nav>
         <!-- Main content -->
         <main class="main-content">
-            <section>
-                <h1>Background color: <span id="color">#202020</span></h1>
+            <section class="main-content__section">
+                <h2 class="main-content__section-title">Background color: <span id="color">#202020</span></h2>
                 <button id="btn">CLICK ME</button>
             </section>
         </main>
 
         <!-- Main footer -->
         <footer class="main-footer">
-            <p>Developed by <a href="github.com/Jose-Angel-Rey" rel="noreferrer noopener">Jose Angel Rey</a></p>
+            <p>
+                Developed by <a href="https://github.com/Jose-Angel-Rey" target="_blank" rel="noreferrer noopener">Jose
+                    Angel Rey</a>
+            </p>
         </footer>
     </div>
 </body>
