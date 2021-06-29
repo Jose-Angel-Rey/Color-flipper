@@ -2,4 +2,4 @@
 
 ## Demo
 
-![Color Flipper demo](./demo/color-flipper-demo.mp4)
+![Color Flipper demo](./assets/color-flipper-demo.gif)
