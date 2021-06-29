@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: teal;
-}
-
 .main-container {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -18,10 +14,10 @@ body {
 }
 
 .navbar {
-    background-color: #fff;
+    background-image: linear-gradient(#202020, #404040);
     border-bottom: 2px solid #000;
+    color: #fff;
     display: flex;
-    padding: 1rem 0;
     width: 100%;
 }
 
@@ -35,20 +31,29 @@ body {
     max-width: 50rem;
 }
 
-.navbar__nav-item {
+/* .navbar__nav-item {
     margin: 0 1rem;
-}
+} */
 
 .navbar__nav-item:first-of-type {
     margin-right: auto;
 }
 
 .navbar__nav-link {
-    color: #000;
+    color: #fff;
+    display: inline-block;
     font-weight: 300;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
+    transition: all .5s;
+    padding: 1.4rem 1rem;
+}
+.navbar__nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar__nav-link:active{
+    background-color: rgba(148, 148, 148, 0.473);
 }
 
 .main-content {
@@ -57,13 +62,14 @@ body {
 }
 
 .main-content__section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
     margin: 0 auto;
-    width: 50%;
+    text-align: center;
+    width: 90%;
     max-width: 40rem;
 }
 
@@ -76,6 +82,10 @@ body {
     margin-bottom: 2rem;
     padding: 1rem 2rem;
     /* width: 100%; */
+}
+
+.main-content__section-title span {
+    color: rgb(150, 195, 247);
 }
 
 .main-content__section button {
@@ -92,4 +102,22 @@ body {
     background-image: linear-gradient(#202020, #404040);
     border-color: #202020;
     color: #fff;
+}
+
+.main-content__section button:active {
+    background-image: linear-gradient(#303030, #505050);
+    transform: scale(.98);
+}
+
+.main-footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    width: 100%;
+}
+.main-footer p{
+    text-shadow: 0 1px 1px #000;
+}
+.main-footer a {
+    color: #fff;
+    text-shadow: 0 1px 2px #000;
 }
