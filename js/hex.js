@@ -23,8 +23,6 @@ const hexCode = [
   "F",
 ];
 
-console.log(hexCode, hexCode.length);
-
 function randomNumber() {
   return Math.floor(Math.random() * 16);
 }
@@ -34,7 +32,6 @@ btn.addEventListener("click", () => {
   for (let i = 0; i < 6; i++) {
     hexColor += hexCode[randomNumber()];
   }
-  console.log(hexColor);
 
   color.textContent = `#${hexColor}`;
   bodyElement.style.backgroundColor = color.textContent;

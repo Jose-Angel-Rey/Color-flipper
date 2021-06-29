@@ -13,7 +13,7 @@
     <title>Color flipper</title>
 </head>
 
-<body>
+<body style="background-image: linear-gradient(#F7CCDF, #9F009F);">
     <div class="main-container">
         <!-- Navbar -->
         <nav class="navbar">
@@ -21,17 +21,20 @@
                 <li class="navbar__nav-item">
                     <h1 class="navbar__nav-title">Color Flipper</h1>
                 </li>
-                <li class="navbar__nav-item"><a href="#" class="navbar__nav-link">Name</a></li>
-                <li class="navbar__nav-item"><a href="./pages/hex.html" class="navbar__nav-link">Hex</a></li>
-                <li class="navbar__nav-item"><a href="./pages/rgb.html" class="navbar__nav-link">RGB</a></li>
-                <li class="navbar__nav-item"><a href="./pages/hsl.html" class="navbar__nav-link">HSL</a></li>
-                <li class="navbar__nav-item"><a href="./pages/gradient.html" class="navbar__nav-link">Gradient</a></li>
+                <li class="navbar__nav-item"><a href="../index.html" class="navbar__nav-link">Name</a></li>
+                <li class="navbar__nav-item"><a href="./hex.html" class="navbar__nav-link">Hex</a></li>
+                <li class="navbar__nav-item"><a href="./rgb.html" class="navbar__nav-link">RGB</a></li>
+                <li class="navbar__nav-item"><a href="./hsl.html" class="navbar__nav-link">HSL</a></li>
+                <li class="navbar__nav-item"><a href="#" class="navbar__nav-link">Gradient</a></li>
             </ul>
         </nav>
+
         <!-- Main content -->
         <main class="main-content">
-            <section class="main-content__section">
-                <h2 class="main-content__section-title">background-color: <span id="color">#202020</span>;</h2>
+            <section class="main-content__section gradient-section">
+                <h2 class="main-content__section-title ">
+                    background-image: linear-gradient(<span id="firstColor">#F7CCDF</span>,<span
+                        id="secondColor">#9F009F</span>);</h2>
                 <button id="btn">CLICK ME</button>
             </section>
         </main>
@@ -45,7 +48,7 @@
         </footer>
     </div>
 
-    <script src="../js/hex.js"></script>
+    <script src="../js/gradient.js"></script>
 </body>
 
 </html>
