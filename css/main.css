@@ -23,6 +23,11 @@
     width: 100%;
 }
 
+.navbar__nav-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .navbar__container {
     /* border: 1px solid red; */
     color: #fff;
@@ -91,6 +96,8 @@
     margin-bottom: 2rem;
     padding: 1rem 2rem;
 }
+
+
 
 .main-content__section-title span {
     color: rgb(150, 195, 247);
@@ -161,12 +168,14 @@
         padding: .5rem 0;
     }
 }
-@media screen and (max-width:445px){
-.navbar{
-    padding: 1rem 0;
-}
-    .navbar__container{
+
+@media screen and (max-width:445px) {
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .navbar__container {
         flex-direction: column;
     }
-    
+
 }
