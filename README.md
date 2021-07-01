@@ -2,4 +2,4 @@
 
 ![Preview](./assets/preview.webp)
 
-[Go to Color Flipper 🚀](http://github.com)
+[Go to Color Flipper 🚀](http://color-flipper-five.vercel.app/)
